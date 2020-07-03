@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React_Template/static/css/main.9a53ff25.chunk.css",
+    "main.js": "/React_Template/static/js/main.50f76c7d.chunk.js",
+    "main.js.map": "/React_Template/static/js/main.50f76c7d.chunk.js.map",
+    "runtime-main.js": "/React_Template/static/js/runtime-main.9a2d0996.js",
+    "runtime-main.js.map": "/React_Template/static/js/runtime-main.9a2d0996.js.map",
+    "static/js/2.ab5d9f12.chunk.js": "/React_Template/static/js/2.ab5d9f12.chunk.js",
+    "static/js/2.ab5d9f12.chunk.js.map": "/React_Template/static/js/2.ab5d9f12.chunk.js.map",
+    "index.html": "/React_Template/index.html",
+    "precache-manifest.0e0cf19afd507573853801d0f02df661.js": "/React_Template/precache-manifest.0e0cf19afd507573853801d0f02df661.js",
+    "service-worker.js": "/React_Template/service-worker.js",
+    "static/css/main.9a53ff25.chunk.css.map": "/React_Template/static/css/main.9a53ff25.chunk.css.map",
+    "static/js/2.ab5d9f12.chunk.js.LICENSE.txt": "/React_Template/static/js/2.ab5d9f12.chunk.js.LICENSE.txt",
+    "static/media/AboutStyle.css": "/React_Template/static/media/about-bg.020c9eb8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a2d0996.js",
+    "static/js/2.ab5d9f12.chunk.js",
+    "static/css/main.9a53ff25.chunk.css",
+    "static/js/main.50f76c7d.chunk.js"
+  ]
+}
