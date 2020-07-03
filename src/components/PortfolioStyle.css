@@ -1,0 +1,88 @@
+.portfolio{
+    background-color:  rgb(239, 239, 239);
+    text-align: center;
+}
+
+.title{
+    color: #002651;
+    padding-top: 20px;
+}
+
+.btn{
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    color: #85203b;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn.active{
+    background:  #85203b;
+    color: #FFF;
+}
+
+.btn:hover{
+    background:  #85203b;
+    color: #FFF;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+}
+
+span.image{
+ position: relative;
+}
+
+span.image img{
+    width: 100%;
+    height: auto;
+}
+
+/*if i hover over span --> do that for img inside span*/
+span.image:hover img{
+    opacity: 0.3;
+}
+
+/*if i hover over span --> do that for imageBtn inside span*/
+span.image:hover .imageBtn {
+    display: block;
+}
+
+.imageBtn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 6rem;
+    height: 2rem;
+    border-radius: 10px;
+    background:  #85203b;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+
+.imageBtn a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+@media screen and (max-width:820px){
+    .photos{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:600px){
+    .photos{
+        grid-template-columns:1fr;
+    }
+}

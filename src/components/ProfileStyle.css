@@ -1,0 +1,60 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.profileTitle{
+    color: #002651;
+    font-family: auto;
+}
+
+.profileInfo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 10%;
+}
+
+.profileLabels strong{
+    display: block;
+    margin-bottom: 30px;
+    color: #ff304f;
+}
+
+.profileAnswers{
+    padding-left: 40px;
+}
+
+.profileAnswers label {
+    display: block;
+    margin-bottom: 30px;
+    color: #002651;
+}
+
+/**/
+
+.skillsInfo{
+    padding-left: 10%;
+}
+
+.skills p{
+    color: #775ada;
+}
+
+.skillsList{
+    list-style: none;
+}
+
+.skillsItem{
+    position: relative;
+}
+.skillName{
+    display: inline;
+    color: #002651;
+}
+
+@media screen and (max-width:600px){
+    .profile{
+        flex-direction: column;
+    }
+}

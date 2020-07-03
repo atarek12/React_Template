@@ -1,0 +1,46 @@
+.title{
+    color: #002651;
+}
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 50px;
+}
+
+.cardItem{
+    width: 30%;
+    border: solid #a1eafb;
+    text-align: center;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.icon{
+    color: #002651;
+}
+
+.cardName{
+    color: #002651;
+}
+
+.cardLine{
+    background: #ff304f;
+    height: 1px;
+    width: 80%;
+}
+
+@media screen and (max-width : 600px){
+    .cards{
+        flex-direction: column;
+    }
+    .cardItem{
+        width: 100%;
+        margin-bottom: 10px;
+        height: 15rem;
+    }
+}

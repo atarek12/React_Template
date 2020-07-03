@@ -1,0 +1,77 @@
+.Navbar{
+    background-color: #a1eafb;
+    padding: 10px 0;
+    box-shadow: 1px 1px 20px #888888;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: serif;
+    color: #85203b;
+}
+
+.list{
+    list-style: none;
+    float: right;
+}
+
+.listItem{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.link{
+    color: #071e3d;
+    text-decoration: none;
+}
+
+.link:hover{
+    color:#85203b;
+    font-weight: bold;
+}
+
+.openIcon, .closeIcon{
+    display: none;
+    float: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+    .list{
+        opacity: 0;
+        height: 0;
+    } 
+
+    .list.active{
+        opacity: 1;
+        height: 120px;
+        float: none;
+        transition: opacity 0.5s 0.2s ease-in-out, height 0.5s;
+    }   
+
+    .listItem{
+        display: block;
+    }
+
+    .openIcon{
+        display: none;
+    }
+
+    .openIcon.active{
+        display: block;
+    }
+ 
+    .closeIcon{
+        display: none;
+    }
+ 
+    .closeIcon.active{
+        display: block;
+    }
+}
