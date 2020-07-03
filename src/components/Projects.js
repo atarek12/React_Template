@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import axios from 'axios'
 import './ProjectsStyle.css'
 
-//const dataURL = '../js/data.json';
-//import dataFile from '../js/data.json';
+import dataFile from '../js/data.json';
 
 export default class Projects extends Component {
 
@@ -14,10 +12,8 @@ export default class Projects extends Component {
 
     // called once in every mounting
     componentDidMount() {
-        axios.get('js/data.json').then(res => {
-            this.setState({
-                projects: res.data.projects
-            })
+        this.setState({
+            projects: dataFile.projects
         })
     }
 

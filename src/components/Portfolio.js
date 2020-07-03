@@ -18,14 +18,8 @@ export default function Portfolio() {
 
     // useEffect is a react hook called once in the begining --> componentDidMount()
     useEffect(() => {
-
-        Axios.get('js/data.json').then(res => {
-            setImages(res.data.portfolio);
-            setPrintedImages(res.data.portfolio);
-        })
-
-        // setImages(dataFile.portfolio);
-        // setPrintedImages(dataFile.portfolio);
+        setImages(dataFile.portfolio);
+        setPrintedImages(dataFile.portfolio);
         console.log(dataFile.data)
     }, [])                      // empty array to be called only once, no dependencies
 
