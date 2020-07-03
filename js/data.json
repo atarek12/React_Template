@@ -22,42 +22,42 @@
     "portfolio": [
         {
             "id": 1,
-            "image": "/images/Portfolio/portfolio-img1.jpg",
+            "image": "images/Portfolio/portfolio-img1.jpg",
             "type": "photoshop"
         },
         {
             "id": 2,
-            "image": "/images/Portfolio/portfolio-img2.jpg",
+            "image": "images/Portfolio/portfolio-img2.jpg",
             "type": "mobile"
         },
         {
             "id": 3,
-            "image": "/images/Portfolio/portfolio-img3.jpg",
+            "image": "images/Portfolio/portfolio-img3.jpg",
             "type": "editing"
         },
         {
             "id": 4,
-            "image": "/images/Portfolio/portfolio-img4.jpg",
+            "image": "images/Portfolio/portfolio-img4.jpg",
             "type": "photoshop"
         },
         {
             "id": 5,
-            "image": "/images/Portfolio/portfolio-img5.jpg",
+            "image": "images/Portfolio/portfolio-img5.jpg",
             "type": "mobile"
         },
         {
             "id": 6,
-            "image": "/images/Portfolio/portfolio-img6.jpg",
+            "image": "images/Portfolio/portfolio-img6.jpg",
             "type": "editing"
         },
         {
             "id": 7,
-            "image": "/images/Portfolio/portfolio-img4.jpg",
+            "image": "images/Portfolio/portfolio-img4.jpg",
             "type": "photoshop"
         },
         {
             "id": 8,
-            "image": "/images/Portfolio/portfolio-img8.jpg",
+            "image": "images/Portfolio/portfolio-img8.jpg",
             "type": "editing"
         }
     ],
